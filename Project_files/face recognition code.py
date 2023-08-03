@@ -19,7 +19,7 @@ def speak(str1):
 
 
 def load_known_persons():
-    CurrentFolder = os.getcwd()+"/images"
+    CurrentFolder = os.getcwd()+"/Project_files/images"
     image_files = [file for file in os.listdir(CurrentFolder) if file.lower().endswith(('.png', '.jpg', '.jpeg'))]
     known_face_encodings = []
     known_face_names = []
